@@ -12,13 +12,6 @@
 </div>
 
 <style lang="scss">
-	canvas {
-		position: fixed;
-		top: 0;
-		left: 0;
-		width: 300px;
-		height: 300px;
-	}
 	.footer {
 		position: fixed;
 		left: 0;

@@ -7,7 +7,7 @@ import type {
 	ResumePageParams
 } from './utils';
 
-export const PortfolioTitle = 'Simon Warchol | Person';
+export const PortfolioTitle = 'Salma Abdel Magid';
 
 export const MySkillsParams: SkillsParams = {
 	skills: [
