@@ -17,7 +17,7 @@
   const items = [
     {
       title:
-        "psudo: Exploring Multi-Channel Biomedical Image Data with Spatially and Perceptually Optimized Pseudocoloring",
+        "psudo: !!! Exploring Multi-Channel Biomedical Image Data with Spatially and Perceptually Optimized Pseudocoloring",
       authors:
         "Simon Warchol, Jakob Troidl, Jeremy Muhlich, Robert Krueger, John Hoffer, Tica Lin, Johanna Beyer, Elena Glassman, Peter Sorger, and Hanspeter Pfister",
       journal: "Computer Graphics Forum (EuroVis 24, to appear)",
