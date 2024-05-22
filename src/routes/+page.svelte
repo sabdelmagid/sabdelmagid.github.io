@@ -115,7 +115,7 @@
     <div id="profile-image" class="profile-image" />
   </div>
   <div class="home-section">
-    <h1 class="home-title">THIS IS UNDER CONSTRUCTION. THANKS SIMON! Salma Abdel Magid is test</h1>
+    <h1 class="home-title">Salma Abdel Magid</h1>
     <div class="home-subtitle">
       <span class="home-detail"
         >PhD Candiate in Computer Science at Harvard University</span
@@ -128,31 +128,13 @@
         >
       </span>
       <span class="home-detail"
-        >My research focuses on <span class="emphasis">ASFD</span></span
+        >My current research focuses on fairness and interpretability of vision-language models.</span
       >
-      <span class="home-detail"
-        >Member of
-        <a class="groups" href="https://vcg.seas.harvard.edu/"
-          >Visual Computing Group</a
-        >
-        and the
-        <a class="groups" href="https://labsyspharm.org/"
-          >Laboratory of Systems Pharmacology</a
-        >.</span
-      >
-
-      <span class="home-detail">
-        <a class="groups" href="https://harvardgradunion.org/"
-          >HGSU/UAW Local 5118</a
-        > Steward.</span
-      >
-      <span class="home-detail"
-        >I was raised in <span class="cities">St. Louis, MO</span> and now live
-        in
-        <span class="cities">Cambridge, MA</span>.</span
-      >
-      <span class="home-detail">I have some other interests. They include:</span
-      >
+      <span class="home-detail">Member of
+        
+        <a class="groups" href="https://vcg.seas.harvard.edu/">Visual Computing Group</a>
+      
+      <span class="home-detail">I have some other interests. They include:</span>
     </div>
     <ul class="interests-list">
       <li><a href="https://www.megunticook.org/">Lake Megunticook</a>.</li>
