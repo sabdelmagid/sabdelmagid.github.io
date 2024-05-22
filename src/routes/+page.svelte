@@ -115,7 +115,7 @@
     <div id="profile-image" class="profile-image" />
   </div>
   <div class="home-section">
-    <h1 class="home-title">Salma Abdel Magid</h1>
+    <h1 class="home-title">Salma Abdel Magid is test</h1>
     <div class="home-subtitle">
       <span class="home-detail"
         >PhD Candiate in Computer Science at Harvard University</span
