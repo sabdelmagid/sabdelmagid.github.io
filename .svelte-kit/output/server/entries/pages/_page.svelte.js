@@ -150,7 +150,7 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 
 	const items = [
 		{
-			title: "psudo: Exploring Multi-Channel Biomedical Image Data with Spatially and Perceptually Optimized Pseudocoloring",
+			title: "psudo: !!! Exploring Multi-Channel Biomedical Image Data with Spatially and Perceptually Optimized Pseudocoloring",
 			authors: "Simon Warchol, Jakob Troidl, Jeremy Muhlich, Robert Krueger, John Hoffer, Tica Lin, Johanna Beyer, Elena Glassman, Peter Sorger, and Hanspeter Pfister",
 			journal: "Computer Graphics Forum (EuroVis 24, to appear)",
 			link: "https://doi.org/10.1101/2024.04.11.589087",
@@ -224,7 +224,7 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 
 	return `${($$result.head += '<!-- HEAD_svelte-1pixpm9_START -->' + `${($$result.title = `<title>${escape(useTitle(title, PortfolioTitle))}</title>`, "")}` + '<!-- HEAD_svelte-1pixpm9_END -->', "")}
 <div class="home svelte-1kdvnxn" id="home-container"><div class="home-section svelte-1kdvnxn"><div id="profile-image" class="profile-image svelte-1kdvnxn"></div></div>
-  <div class="home-section svelte-1kdvnxn"><h1 class="home-title svelte-1kdvnxn">Salma Abdel Magid</h1>
+  <div class="home-section svelte-1kdvnxn"><h1 class="home-title svelte-1kdvnxn">Salma Abdel Magid is test</h1>
     <div class="home-subtitle svelte-1kdvnxn"><span class="home-detail svelte-1kdvnxn">PhD Candiate in Computer Science at Harvard University</span>
       <span class="home-detail svelte-1kdvnxn">Advised by <a class="advisors svelte-1kdvnxn" href="https://vcg.seas.harvard.edu/people/hanspeter-pfister">Hanspeter Pfister</a></span>
       <span class="home-detail svelte-1kdvnxn">My research focuses on <span class="emphasis svelte-1kdvnxn">ASFD</span></span>
