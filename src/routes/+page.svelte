@@ -15,36 +15,52 @@
 
   const publicationsTitle = "Publications";
   const items = [
+
+
+  {
+    title: "Masked Image Training for Generalizable Deep Image Denoising",
+    authors: "Haoyu Chen, Jinjin Gu, Yihao Liu, Salma Abdel Magid, Chao Dong, Qiong Wang, Hanspeter Pfister, Lei Zhu",
+    journal: "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    publication_date: "2023",
+    pages: "1692-1703",
+    link: "https://openaccess.thecvf.com/content/CVPR2023/html/Chen_Masked_Image_Training_for_Generalizable_Deep_Image_Denoising_CVPR_2023_paper.html",
+  },
+  {
+      title: "Texture Based Error Analysis of Image Super-Resolution",
+      authors: "Salma Abdel Magid, Zudi Lin, Donglai Wei, Yulun Zhang, Jinjin Gu, Hanspeter Pfister",
+      journal: "Conference on Computer Vision and Pattern Recognition (CVPR) 2022",
+      link: "https://openaccess.thecvf.com/content/CVPR2022/papers/Magid_Texture-Based_Error_Analysis_for_Image_Super-Resolution_CVPR_2022_paper.pdf",
+      //project_link: "link_to_project",
+    },
+  {
+    title: "Revisiting RCAN: Improved Training for Image Super-Resolution",
+    authors: "Zudi Lin, Prateek Garg, Atmadeep Banerjee, Salma Abdel Magid, Deqing Sun, Yulun Zhang, Luc Van Gool, Donglai Wei, Hanspeter Pfister",
+    journal: "arXiv preprint arXiv:2201.11279",
+    publication_date: "2022",
+    link: "https://arxiv.org/abs/2201.11279",
+  },
     {
-      title:
-        "psudo: !!! Exploring Multi-Channel Biomedical Image Data with Spatially and Perceptually Optimized Pseudocoloring",
-      authors:
-        "Simon Warchol, Jakob Troidl, Jeremy Muhlich, Robert Krueger, John Hoffer, Tica Lin, Johanna Beyer, Elena Glassman, Peter Sorger, and Hanspeter Pfister",
-      journal: "Computer Graphics Forum (EuroVis 24, to appear)",
-      link: "https://doi.org/10.1101/2024.04.11.589087",
-      vcg_link: "https://vcg.seas.harvard.edu/publications/psudo",
-      teaser: "/psudo_teaser.jpg",
+      title: "Dynamic High-Pass Filtering and Multi-Spectral Attention for Image Super-Resolution",
+      authors: "Salma Abdel Magid, Yulun Zhang, Donglai Wei, Won-Dong Jang, Zudi Lin, Yun Fu, Hanspeter Pfister",
+      journal: "International Conference on Computer Vision (ICCV) 2021",
+      link: "https://ieeexplore.ieee.org/document/9710688",
+      //project_link: "link_to_project",
     },
     {
-      title: "Vimo: Visual Analysis of Neuronal Connectivity Motifs",
-      authors:
-        "Jakob Troidl, Simon Warchol, Jinhan Choi, Jordan Matelsky, Nagaraju Dhanysai, Xueying Wang, Brock Wester, Donglai Wei, Jeff W Lichtman, Hanspeter Pfister, Johanna Beyer",
-      journal: "IEEE Transactions on Visualization and Computer Graphics",
-      link: "https://doi.org/10.1109/TVCG.2023.3327388",
-      vcg_link: "https://vcg.seas.harvard.edu/publications/vimo",
-      teaser: "/vimo-teaser-02.png",
+      title: "Channel Embedding for Informative Protein Identification from Highly Multiplexed Images",
+      authors: "Salma Abdel Magid, Won-Dong Jang, Denis Schapiro, Donglai Wei, James Tompkin, Peter Sorger, Hanspeter Pfister",
+      journal: "International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI) 2020",
+      link: "https://link.springer.com/chapter/10.1007/978-3-030-59722-1_1",
+      //project_link: "link_to_project",
     },
-    
     {
-      authors:
-        "Jared Jessup, Robert Krueger, Simon Warchol, John Hoffer, Jeremy Muhlich, Cecily C Ritch, Giorgio Gaglia, Shannon Coy, Yu-An Chen, Jia-Ren Lin, Sandro Santagata, Peter K Sorger, Hanspeter Pfister",
-      title:
-        "Scope2Screen: focus+ context techniques for pathology tumor assessment in multivariate image data",
-      journal:
-        "IEEE Transactions on Visualization and Computer Graphics. 2022 Jan; 28(1): 259–269.",
-      link: "https://ieeexplore.ieee.org/document/9557792",
-      vcg_link: "https://vcg.seas.harvard.edu/publications/scope2screen",
-      teaser: "/scope2screen_high_res.png",
+      
+      title: "Image Classification on  IoT Edge Devices: Profiling and Modeling",
+      authors: "Salma Abdel Magid, Francesco Petrini, Behnam Dezfouli",
+      journal: "Springer Cluster Computing Journal. 2019.",
+      link: "https://link.springer.com/article/10.1007/s10586-019-02971-9",
+      //vcg_link: "https://vcg.seas.harvard.edu/publications/scope2screen",
+      //teaser: "/scope2screen_high_res.png",
     },
   ];
 
@@ -81,11 +97,11 @@
   ];
 
   const _links = {
-    twitter: "https://twitter.com/simonwarchol",
+   // twitter: "https://twitter.com/simonwarchol",
     googlescholar:
-      "https://scholar.google.com/citations?user=ZawMTogAAAAJ&hl=en&oi=ao",
-    github: "https://github.com/simonwarchol",
-    email: "simonwarchol@g.harvard.edu",
+      "https://scholar.google.com/citations?user=Tso5QeEAAAAJ&hl=en",
+    github: "https://github.com/sabdelmagid",
+    email: "sabdelmagid@g.harvard.edu",
   };
 
   const links: Array<SocialLink> = Object.keys(_links).map((key) => {
@@ -133,12 +149,13 @@
       <span class="home-detail">Member of
         
         <a class="groups" href="https://vcg.seas.harvard.edu/">Visual Computing Group</a>
-      
-      <span class="home-detail">I have some other interests. They include:</span>
+      <!-- 
+      <span class="home-detail">I have some other interests. They include:</span> -->
     </div>
+     <!-- 
     <ul class="interests-list">
       <li><a href="https://www.megunticook.org/">Lake Megunticook</a>.</li>
-    </ul>
+    </ul> -->
 
     <div class="home-social">
       {#each links as link}
