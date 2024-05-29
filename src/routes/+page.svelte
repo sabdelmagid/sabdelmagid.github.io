@@ -178,6 +178,8 @@
           <a class="advisors" href="https://www.scu.edu/engineering/faculty/dezfouli-behnam/">Behnam Dezfouli</a
         >
         </span>
+        <span class="home-detail">Many thanks to Simon Warchol for helping me with this website!</span>
+        
       <!-- 
         I received my B.S., M.S. from Santa Clara University, advised by Prof. Behnam Dezfouli.
       <span class="home-detail">I have some other interests. They include:</span> -->

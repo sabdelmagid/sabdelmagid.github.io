@@ -275,6 +275,8 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
         <span class="home-detail svelte-15iacl8">I received my B.S. and M.S. from Santa Clara University, advised by
           
           <a class="advisors svelte-15iacl8" href="https://www.scu.edu/engineering/faculty/dezfouli-behnam/">Behnam Dezfouli</a></span>
+        <span class="home-detail svelte-15iacl8">Many thanks to Simon Warchol for helping me with this website!</span>
+        
       </div>
      
 

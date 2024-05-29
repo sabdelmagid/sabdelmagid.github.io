@@ -94,8 +94,9 @@ const Layout = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 	$$result.css.add(css);
 
 	return `${validate_component(NavMenu, "NavMenu").$$render($$result, {}, {}, {})}
+
 <div class="content container svelte-d1yjay">${slots.default ? slots.default({}) : ``}</div>
-<div class="footer svelte-d1yjay"><h3 class="color-gradient svelte-d1yjay">© 2023 Salma Abdel Magid, Thanks Simon!</h3>
+<div class="footer svelte-d1yjay"><h3 class="color-gradient svelte-d1yjay">© 2023 Salma Abdel Magid</h3>
 </div>`;
 });
 

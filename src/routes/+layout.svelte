@@ -4,11 +4,12 @@
 </script>
 
 <NavMenu />
+
 <div class="content container">
 	<slot />
 </div>
 <div class="footer">
-	<h3 class="color-gradient">© 2023 Salma Abdel Magid, Thanks Simon!</h3>
+	<h3 class="color-gradient">© 2023 Salma Abdel Magid</h3>
 </div>
 
 <style lang="scss">
