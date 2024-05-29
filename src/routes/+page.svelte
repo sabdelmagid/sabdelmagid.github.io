@@ -217,11 +217,29 @@
     {/each}
   </div>
 </div>
+<div class="teaching-wrapper" id="teaching-anchor">
+  <MainTitle>Teaching</MainTitle>
+  <div class="teaching-content">
+    <!-- Add your teaching content here -->
+  </div>
+</div>
+<div class="service-wrapper" id="service-anchor">
+  <MainTitle>Service</MainTitle>
+  <div class="service-content">
+    <!-- Add your service content here -->
+  </div>
+</div>
+
 
 <!--https://coolors.co/76b1e2-962b34-59cd90-fac05e-f79d84   -->
+<!-- 
 <style lang="scss">
   #publications-anchor,
   #awards-anchor {
+    padding-top: 50px;
+  }
+  #teaching-anchor,
+  #service-anchor {
     padding-top: 50px;
   }
 
@@ -350,6 +368,181 @@
     align-items: center;
 
     &-awards {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &-data {
+      display: flex;
+      flex-direction: column;
+      margin-left: 20px;
+    }
+
+    @media (max-width: 800px) {
+      flex-direction: column;
+
+      &-data {
+        margin-left: 0px;
+      }
+    }
+
+    &-title {
+      margin: 0;
+      display: flex;
+      align-items: center;
+
+      &-divider {
+        width: 10px;
+      }
+
+      @media (max-width: 800px) {
+        & {
+          align-items: center;
+          margin: 5px 0px;
+        }
+      }
+    }
+
+    &-period,
+    &-date {
+      color: var(--accent-text-c);
+      margin-bottom: 0px;
+    }
+
+    &-link {
+      margin-bottom: 0;
+    }
+
+    &-authors {
+      margin-bottom: 5px;
+    }
+
+    &-date {
+      margin-bottom: 5px;
+    }
+  }
+
+  .projects {
+    display: flex;
+    flex-direction: column;
+
+    &-search,
+    &-filters,
+    &-list {
+      margin-top: 40px;
+    }
+
+    &-search {
+      display: flex;
+      justify-content: stretch;
+      padding: 0px 10px;
+    }
+
+    &-list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      padding: 0px 10px;
+
+      @media (max-width: 1350px) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      @media (max-width: 850px) {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+  }
+</style>
+-->
+
+<style lang="scss">
+  #publications-anchor,
+  #awards-anchor,
+  #teaching-anchor,
+  #service-anchor {
+    padding-top: 50px;
+  }
+
+  #home-container {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+  }
+
+  #profile-image {
+    background-image: url("/profile.png");
+    width: 100%;
+    height: 100%;
+    max-width: 35vw;
+    background-size: contain;
+    background-position: center;
+    background-repeat: space;
+  }
+
+  .home-section {
+    flex-grow: 1;
+    width: 100%;
+  }
+
+  .home-detail {
+    display: block;
+    margin-bottom: 0.5em;
+  }
+
+  a.advisors {
+    color: #76b1e2;
+  }
+
+  .home {
+    &-title {
+      font-family: var(--title-f);
+      font-size: 2.7em;
+      font-weight: 900;
+    }
+
+    &-subtitle {
+      font-size: 1.1em;
+      font-weight: 200;
+    }
+
+    &-social {
+      padding: 15px 0px;
+
+      &-item {
+        margin-right: 10px;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .experience {
+    display: flex;
+    flex-direction: column;
+
+    &-experiences {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .awards-wrapper,
+  .teaching-wrapper,
+  .service-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .award,
+  .teaching,
+  .service {
+    display: flex;
+    align-items: center;
+
+    &-awards,
+    &-content {
       display: flex;
       flex-direction: column;
     }

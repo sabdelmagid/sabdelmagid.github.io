@@ -20,6 +20,8 @@ const NavMenu = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 		home: "Home",
 		publications: "Publications",
 		awards: "Awards",
+		teaching: "Teaching",
+		service: "Service",
 		resume: "CV",
 		skills: "Skills"
 	};
@@ -41,6 +43,16 @@ const NavMenu = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 			title: NavBar.awards,
 			to: "/#awards-anchor",
 			icon: Icons.Skills
+		},
+		{
+			title: NavBar.teaching,
+			to: "/#teaching-anchor",
+			icon: Icons.Teaching
+		},
+		{
+			title: NavBar.service,
+			to: "/#service-anchor",
+			icon: Icons.Service
 		}
 	]; // { title: NavBar.resume, to: '/warchol_cv.pdf', icon: Icons.Resume }
 
@@ -61,10 +73,10 @@ const NavMenu = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 			"nav-menu-item svelte-1yvqyhe",
 			currentRoute === item.to ? "nav-menu-item-active" : ""
 		].join(' ').trim()}">${validate_component(Icon, "Icon").$$render($$result, { icon: item.icon, size: "18px" }, {}, {})}
-				<span class="nav-menu-item-label svelte-1yvqyhe">${escape(item.title)}</span>
-			</a>`;
+		  <span class="nav-menu-item-label svelte-1yvqyhe">${escape(item.title)}</span>
+		</a>`;
 	})}</nav>
-</div>`;
+  </div>`;
 });
 
 const index = '';
