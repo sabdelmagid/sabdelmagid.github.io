@@ -309,11 +309,8 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 			return `Service`;
 		}
 	})}
-  <div class="service-content svelte-15iacl8"></div></div>
-
-
-
-`;
+  <div class="service-content svelte-15iacl8"></div>
+</div>`;
 });
 
 export { Page as default };

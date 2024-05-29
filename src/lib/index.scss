@@ -1,7 +1,5 @@
-/* 
-
-//@tailwind base;
-//@tailwind components;
+@tailwind base;
+@tailwind components;
 @tailwind utilities;
 
 :root {
@@ -24,28 +22,4 @@
 	--text-f: 'Helvetica';
 	--title-f: 'Helvetica';
 }
-*/
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
-:root {
-	color-scheme: dark;
-
-	// colors
-	--primary-c: #013220;  /* Dark Green */
-	--variant-c: #20a071;  /* Darker Shade of Green */
-	--secondary-c: #025e33; /* Forest Green */
-	--accent-c: #036635;   /* Another Shade of Green */
-	--extra-c: #048848;    /* Lighter Shade of Green */
-
-	// text colors
-	--primary-text-c: #fff;
-	--secondary-text-c: #f0f0f0;
-	--accent-text-c: #a0a0a0;
-	--extra-text-c: #707070;
-
-	// fonts
-	--text-f: 'Helvetica';
-	--title-f: 'Helvetica';
-}
