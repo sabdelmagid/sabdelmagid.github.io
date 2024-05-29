@@ -193,30 +193,53 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 
 	const awards = [
 		{
-			title: "Harvard University Certificate of Distinction in Teaching",
-			journal: "Fall 2021",
-			authors: "CS171: Visualization",
-			link: "https://www.cs171.org/2021/",
-			teaser: "/bok.jpg",
-			vcg_link: "https://bokcenter.harvard.edu/files/shadowbok/files/fall_2021_distinction_by_course.pdf"
+			title: "Harvard Generative AI Summer Research Grant",
+			journal: "2024",
+			link: "https://uraf.harvard.edu/generative-ai-research-program"
 		},
 		{
-			title: "Harvard University Certificate of Distinction in Teaching",
-			journal: "Spring 2021",
-			authors: "CS205: Computing Foundations for Computational Science",
-			link: "https://harvard-iacs.github.io/2021-CS205/",
-			teaser: "/bok.jpg",
-			vcg_link: "https://bokcenter.harvard.edu/files/shadowbok/files/spring_2021_distinction_by_name.pdf"
+			title: "Siebel Scholarship",
+			journal: "2023",
+			link: "https://www.businesswire.com/news/home/20230919861208/en/Siebel-Scholars-Foundation-Announces-Class-of-2024"
 		},
 		{
-			title: "Harvard University Certificate of Distinction in Teaching",
-			journal: "Fall 2020",
-			authors: "CS107: Systems Development for Computational Science",
-			link: "https://harvard-iacs.github.io/2020-CS107",
-			teaser: "/bok.jpg",
-			vcg_link: "https://bokcenter.harvard.edu/files/shadowbok/files/fall_2020_distinction_by_course.pdf"
+			title: "Harvard Graduate School of Arts and Sciences Prize Fellowship",
+			journal: "2019-2024",
+			link: "https://gsas.harvard.edu/academics/fellowships/internal-fellowships"
+		},
+		{
+			title: "MICCAI National Institutes of Health (NIH) Award",
+			journal: "2020",
+			link: "https://www.miccai2020.org/en/MICCAI-2020-NIH-AWARDS.html#:~:text=At%20MICCAI%202020%2C%20we%20had,by%20grant%20R13EB030422%20from%20NIBIB."
 		}
-	];
+	]; /*{
+  title: "Harvard University Certificate of Distinction in Teaching",
+  journal: "Fall 2021",
+  //authors: "CS171: Visualization",
+  //link: "https://www.cs171.org/2021/",
+  //teaser: "/bok.jpg",
+  //vcg_link:
+    "https://bokcenter.harvard.edu/files/shadowbok/files/fall_2021_distinction_by_course.pdf",
+},
+{
+  title: "Harvard University Certificate of Distinction in Teaching",
+  journal: "Spring 2021",
+  authors: "CS205: Computing Foundations for Computational Science",
+  link: "https://harvard-iacs.github.io/2021-CS205/",
+  teaser: "/bok.jpg",
+  vcg_link:
+    "https://bokcenter.harvard.edu/files/shadowbok/files/spring_2021_distinction_by_name.pdf",
+},
+{
+  title: "Harvard University Certificate of Distinction in Teaching",
+  journal: "Fall 2020",
+  authors: "CS107: Systems Development for Computational Science",
+  link: "https://harvard-iacs.github.io/2020-CS107",
+  teaser: "/bok.jpg",
+  vcg_link:
+    "https://bokcenter.harvard.edu/files/shadowbok/files/fall_2020_distinction_by_course.pdf",
+},
+*/
 
 	const _links = {
 		// twitter: "https://twitter.com/simonwarchol",
@@ -246,8 +269,13 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       <span class="home-detail svelte-1kdvnxn">My current research focuses on fairness and interpretability of vision-language models.</span>
       <span class="home-detail svelte-1kdvnxn">Member of
         
-        <a class="groups svelte-1kdvnxn" href="https://vcg.seas.harvard.edu/">Visual Computing Group</a>
-      </span></div>
+        <a class="groups svelte-1kdvnxn" href="https://vcg.seas.harvard.edu/">Visual Computing Group</a></span>
+
+        
+        <span class="home-detail svelte-1kdvnxn">I received my B.S. and M.S. from Santa Clara University, advised by
+          
+          <a class="advisors svelte-1kdvnxn" href="https://www.scu.edu/engineering/faculty/dezfouli-behnam/">Behnam Dezfouli</a></span>
+      </div>
      
 
     <div class="home-social svelte-1kdvnxn">${each(links, link => {

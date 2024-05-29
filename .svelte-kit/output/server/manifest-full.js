@@ -4,7 +4,7 @@ export const manifest = {
 	assets: new Set([".nojekyll","OLDprofile.png","OLDprofile.svg","android-chrome-192x192.png","android-chrome-512x512.png","apple-touch-icon.png","bok.jpg","favicon-16x16.png","favicon-32x32.png","favicon.ico","profile.png","profilebassem.png","psudo_teaser.jpg","psudo_teaser.png","psudo_website_teaser.jpg","riadh_circle.ico:Zone.Identifier","scope2screen_high_res.png","site.webmanifest","vimo-teaser-02.png","warchol_cv.pdf"]),
 	mimeTypes: {".png":"image/png",".svg":"image/svg+xml",".jpg":"image/jpeg",".ico":"image/vnd.microsoft.icon",".webmanifest":"application/manifest+json",".pdf":"application/pdf"},
 	_: {
-		client: {"start":"_app/immutable/entry/start.5998fc13.js","app":"_app/immutable/entry/app.bb8ae072.js","imports":["_app/immutable/entry/start.5998fc13.js","_app/immutable/chunks/index.474b34d0.js","_app/immutable/chunks/singletons.2609c26f.js","_app/immutable/entry/app.bb8ae072.js","_app/immutable/chunks/index.474b34d0.js"],"stylesheets":[],"fonts":[]},
+		client: {"start":"_app/immutable/entry/start.6a11d031.js","app":"_app/immutable/entry/app.b2d6013d.js","imports":["_app/immutable/entry/start.6a11d031.js","_app/immutable/chunks/index.474b34d0.js","_app/immutable/chunks/singletons.9212027b.js","_app/immutable/entry/app.b2d6013d.js","_app/immutable/chunks/index.474b34d0.js"],"stylesheets":[],"fonts":[]},
 		nodes: [
 			() => import('./nodes/0.js'),
 			() => import('./nodes/1.js'),

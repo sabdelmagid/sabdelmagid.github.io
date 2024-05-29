@@ -65,15 +65,36 @@
   ];
 
   const awardsTitle = "Awards";
-
+   
   const awards = [
     {
+      title: "Harvard Generative AI Summer Research Grant",
+      journal: "2024",
+      link: "https://uraf.harvard.edu/generative-ai-research-program"
+    },
+    {
+      title: "Siebel Scholarship",
+      journal: "2023",
+      link: "https://www.businesswire.com/news/home/20230919861208/en/Siebel-Scholars-Foundation-Announces-Class-of-2024"
+    },
+    {
+      title: "Harvard Graduate School of Arts and Sciences Prize Fellowship",
+      journal: "2019-2024",
+      link: "https://gsas.harvard.edu/academics/fellowships/internal-fellowships"
+    },
+    {
+      title: "MICCAI National Institutes of Health (NIH) Award",
+      journal: "2020",
+      link: "https://www.miccai2020.org/en/MICCAI-2020-NIH-AWARDS.html#:~:text=At%20MICCAI%202020%2C%20we%20had,by%20grant%20R13EB030422%20from%20NIBIB."
+    },
+    
+    /*{
       title: "Harvard University Certificate of Distinction in Teaching",
       journal: "Fall 2021",
-      authors: "CS171: Visualization",
-      link: "https://www.cs171.org/2021/",
-      teaser: "/bok.jpg",
-      vcg_link:
+      //authors: "CS171: Visualization",
+      //link: "https://www.cs171.org/2021/",
+      //teaser: "/bok.jpg",
+      //vcg_link:
         "https://bokcenter.harvard.edu/files/shadowbok/files/fall_2021_distinction_by_course.pdf",
     },
     {
@@ -94,6 +115,7 @@
       vcg_link:
         "https://bokcenter.harvard.edu/files/shadowbok/files/fall_2020_distinction_by_course.pdf",
     },
+    */
   ];
 
   const _links = {
@@ -144,12 +166,20 @@
         >
       </span>
       <span class="home-detail"
-        >My current research focuses on fairness and interpretability of vision-language models.</span
-      >
+        >My current research focuses on fairness and interpretability of vision-language models.</span>
       <span class="home-detail">Member of
         
-        <a class="groups" href="https://vcg.seas.harvard.edu/">Visual Computing Group</a>
+        <a class="groups" href="https://vcg.seas.harvard.edu/">Visual Computing Group</a> </span>
+
+        
+        <span class="home-detail">
+          I received my B.S. and M.S. from Santa Clara University, advised by
+          
+          <a class="advisors" href="https://www.scu.edu/engineering/faculty/dezfouli-behnam/">Behnam Dezfouli</a
+        >
+        </span>
       <!-- 
+        I received my B.S., M.S. from Santa Clara University, advised by Prof. Behnam Dezfouli.
       <span class="home-detail">I have some other interests. They include:</span> -->
     </div>
      <!-- 
