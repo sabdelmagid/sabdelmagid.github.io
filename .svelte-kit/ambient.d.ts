@@ -26,32 +26,21 @@
  * ```
  */
 declare module '$env/static/private' {
-<<<<<<< HEAD
 	export const NVM_INC: string;
 	export const MANPATH: string;
-=======
->>>>>>> eb2c03b6ca69683262a23d531a0007c960870e26
 	export const TERM_PROGRAM: string;
 	export const JAVA_LD_LIBRARY_PATH: string;
 	export const NODE: string;
 	export const INIT_CWD: string;
-<<<<<<< HEAD
 	export const _P9K_TTY: string;
 	export const NVM_CD_FLAGS: string;
 	export const GEM_HOME: string;
 	export const TERM: string;
 	export const SHELL: string;
-=======
-	export const SHELL: string;
-	export const TERM: string;
->>>>>>> eb2c03b6ca69683262a23d531a0007c960870e26
 	export const TMPDIR: string;
 	export const HOMEBREW_REPOSITORY: string;
 	export const npm_config_global_prefix: string;
-<<<<<<< HEAD
 	export const CONDA_SHLVL: string;
-=======
->>>>>>> eb2c03b6ca69683262a23d531a0007c960870e26
 	export const TERM_PROGRAM_VERSION: string;
 	export const CONDA_PROMPT_MODIFIER: string;
 	export const ZDOTDIR: string;
@@ -62,26 +51,26 @@ declare module '$env/static/private' {
 	export const TERM_SESSION_ID: string;
 	export const npm_config_noproxy: string;
 	export const npm_config_local_prefix: string;
-<<<<<<< HEAD
 	export const ZSH: string;
 	export const PNPM_HOME: string;
-=======
->>>>>>> eb2c03b6ca69683262a23d531a0007c960870e26
 	export const USER: string;
 	export const NVM_DIR: string;
 	export const COMMAND_MODE: string;
 	export const npm_config_globalconfig: string;
-<<<<<<< HEAD
 	export const CW_NEW_SESSION: string;
 	export const CONDA_EXE: string;
-=======
->>>>>>> eb2c03b6ca69683262a23d531a0007c960870e26
 	export const SSH_AUTH_SOCK: string;
+	export const Q_SET_PARENT_CHECK: string;
 	export const __CF_USER_TEXT_ENCODING: string;
 	export const npm_execpath: string;
+	export const DENO_INSTALL: string;
+	export const PAGER: string;
+	export const _CE_CONDA: string;
+	export const LSCOLORS: string;
 	export const PATH: string;
 	export const npm_package_json: string;
 	export const _: string;
+	export const XML_CATALOG_FILES: string;
 	export const npm_config_userconfig: string;
 	export const npm_config_init_module: string;
 	export const __CFBundleIdentifier: string;
@@ -89,40 +78,33 @@ declare module '$env/static/private' {
 	export const SHELL_PID: string;
 	export const CONDA_PREFIX: string;
 	export const npm_command: string;
+	export const TTY: string;
 	export const PWD: string;
-<<<<<<< HEAD
 	export const VSCODE_NONCE: string;
 	export const JAVA_HOME: string;
-=======
->>>>>>> eb2c03b6ca69683262a23d531a0007c960870e26
 	export const npm_lifecycle_event: string;
+	export const P9K_SSH: string;
 	export const EDITOR: string;
 	export const npm_package_name: string;
-<<<<<<< HEAD
 	export const P9K_TTY: string;
-=======
->>>>>>> eb2c03b6ca69683262a23d531a0007c960870e26
 	export const LANG: string;
 	export const npm_config_npm_version: string;
 	export const XPC_FLAGS: string;
 	export const VSCODE_GIT_ASKPASS_EXTRA_ARGS: string;
 	export const npm_config_node_gyp: string;
 	export const npm_package_version: string;
+	export const _CE_M: string;
 	export const XPC_SERVICE_NAME: string;
 	export const VSCODE_INJECTION: string;
 	export const SHLVL: string;
 	export const HOME: string;
-<<<<<<< HEAD
 	export const VSCODE_GIT_ASKPASS_MAIN: string;
 	export const HOMEBREW_PREFIX: string;
-=======
->>>>>>> eb2c03b6ca69683262a23d531a0007c960870e26
 	export const npm_config_cache: string;
 	export const LOGNAME: string;
 	export const LESS: string;
 	export const CONDA_PYTHON_EXE: string;
 	export const npm_lifecycle_script: string;
-<<<<<<< HEAD
 	export const VSCODE_GIT_IPC_HANDLE: string;
 	export const JAVA_HOME_CONDA_BACKUP: string;
 	export const PKG_CONFIG_PATH: string;
@@ -139,9 +121,6 @@ declare module '$env/static/private' {
 	export const QTERM_SESSION_ID: string;
 	export const DISPLAY: string;
 	export const JAVA_LD_LIBRARY_PATH_BACKUP: string;
-=======
-	export const npm_config_user_agent: string;
->>>>>>> eb2c03b6ca69683262a23d531a0007c960870e26
 	export const npm_node_execpath: string;
 	export const npm_config_prefix: string;
 	export const COLORTERM: string;
@@ -175,32 +154,21 @@ declare module '$env/static/public' {
  */
 declare module '$env/dynamic/private' {
 	export const env: {
-<<<<<<< HEAD
 		NVM_INC: string;
 		MANPATH: string;
-=======
->>>>>>> eb2c03b6ca69683262a23d531a0007c960870e26
 		TERM_PROGRAM: string;
 		JAVA_LD_LIBRARY_PATH: string;
 		NODE: string;
 		INIT_CWD: string;
-<<<<<<< HEAD
 		_P9K_TTY: string;
 		NVM_CD_FLAGS: string;
 		GEM_HOME: string;
 		TERM: string;
 		SHELL: string;
-=======
-		SHELL: string;
-		TERM: string;
->>>>>>> eb2c03b6ca69683262a23d531a0007c960870e26
 		TMPDIR: string;
 		HOMEBREW_REPOSITORY: string;
 		npm_config_global_prefix: string;
-<<<<<<< HEAD
 		CONDA_SHLVL: string;
-=======
->>>>>>> eb2c03b6ca69683262a23d531a0007c960870e26
 		TERM_PROGRAM_VERSION: string;
 		CONDA_PROMPT_MODIFIER: string;
 		ZDOTDIR: string;
@@ -211,26 +179,26 @@ declare module '$env/dynamic/private' {
 		TERM_SESSION_ID: string;
 		npm_config_noproxy: string;
 		npm_config_local_prefix: string;
-<<<<<<< HEAD
 		ZSH: string;
 		PNPM_HOME: string;
-=======
->>>>>>> eb2c03b6ca69683262a23d531a0007c960870e26
 		USER: string;
 		NVM_DIR: string;
 		COMMAND_MODE: string;
 		npm_config_globalconfig: string;
-<<<<<<< HEAD
 		CW_NEW_SESSION: string;
 		CONDA_EXE: string;
-=======
->>>>>>> eb2c03b6ca69683262a23d531a0007c960870e26
 		SSH_AUTH_SOCK: string;
+		Q_SET_PARENT_CHECK: string;
 		__CF_USER_TEXT_ENCODING: string;
 		npm_execpath: string;
+		DENO_INSTALL: string;
+		PAGER: string;
+		_CE_CONDA: string;
+		LSCOLORS: string;
 		PATH: string;
 		npm_package_json: string;
 		_: string;
+		XML_CATALOG_FILES: string;
 		npm_config_userconfig: string;
 		npm_config_init_module: string;
 		__CFBundleIdentifier: string;
@@ -238,40 +206,33 @@ declare module '$env/dynamic/private' {
 		SHELL_PID: string;
 		CONDA_PREFIX: string;
 		npm_command: string;
+		TTY: string;
 		PWD: string;
-<<<<<<< HEAD
 		VSCODE_NONCE: string;
 		JAVA_HOME: string;
-=======
->>>>>>> eb2c03b6ca69683262a23d531a0007c960870e26
 		npm_lifecycle_event: string;
+		P9K_SSH: string;
 		EDITOR: string;
 		npm_package_name: string;
-<<<<<<< HEAD
 		P9K_TTY: string;
-=======
->>>>>>> eb2c03b6ca69683262a23d531a0007c960870e26
 		LANG: string;
 		npm_config_npm_version: string;
 		XPC_FLAGS: string;
 		VSCODE_GIT_ASKPASS_EXTRA_ARGS: string;
 		npm_config_node_gyp: string;
 		npm_package_version: string;
+		_CE_M: string;
 		XPC_SERVICE_NAME: string;
 		VSCODE_INJECTION: string;
 		SHLVL: string;
 		HOME: string;
-<<<<<<< HEAD
 		VSCODE_GIT_ASKPASS_MAIN: string;
 		HOMEBREW_PREFIX: string;
-=======
->>>>>>> eb2c03b6ca69683262a23d531a0007c960870e26
 		npm_config_cache: string;
 		LOGNAME: string;
 		LESS: string;
 		CONDA_PYTHON_EXE: string;
 		npm_lifecycle_script: string;
-<<<<<<< HEAD
 		VSCODE_GIT_IPC_HANDLE: string;
 		JAVA_HOME_CONDA_BACKUP: string;
 		PKG_CONFIG_PATH: string;
@@ -288,9 +249,6 @@ declare module '$env/dynamic/private' {
 		QTERM_SESSION_ID: string;
 		DISPLAY: string;
 		JAVA_LD_LIBRARY_PATH_BACKUP: string;
-=======
-		npm_config_user_agent: string;
->>>>>>> eb2c03b6ca69683262a23d531a0007c960870e26
 		npm_node_execpath: string;
 		npm_config_prefix: string;
 		COLORTERM: string;
