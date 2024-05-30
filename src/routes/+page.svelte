@@ -15,49 +15,86 @@
 
   const publicationsTitle = "Publications";
   const items = [
+
+
+  {
+    title: "Masked Image Training for Generalizable Deep Image Denoising",
+    authors: "Haoyu Chen, Jinjin Gu, Yihao Liu, Salma Abdel Magid, Chao Dong, Qiong Wang, Hanspeter Pfister, Lei Zhu",
+    journal: "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    publication_date: "2023",
+    pages: "1692-1703",
+    link: "https://openaccess.thecvf.com/content/CVPR2023/html/Chen_Masked_Image_Training_for_Generalizable_Deep_Image_Denoising_CVPR_2023_paper.html",
+  },
+  {
+      title: "Texture Based Error Analysis of Image Super-Resolution",
+      authors: "Salma Abdel Magid, Zudi Lin, Donglai Wei, Yulun Zhang, Jinjin Gu, Hanspeter Pfister",
+      journal: "Conference on Computer Vision and Pattern Recognition (CVPR) 2022",
+      link: "https://openaccess.thecvf.com/content/CVPR2022/papers/Magid_Texture-Based_Error_Analysis_for_Image_Super-Resolution_CVPR_2022_paper.pdf",
+      //project_link: "link_to_project",
+    },
+  {
+    title: "Revisiting RCAN: Improved Training for Image Super-Resolution",
+    authors: "Zudi Lin, Prateek Garg, Atmadeep Banerjee, Salma Abdel Magid, Deqing Sun, Yulun Zhang, Luc Van Gool, Donglai Wei, Hanspeter Pfister",
+    journal: "arXiv preprint arXiv:2201.11279",
+    publication_date: "2022",
+    link: "https://arxiv.org/abs/2201.11279",
+  },
     {
-      title:
-        "psudo: Exploring Multi-Channel Biomedical Image Data with Spatially and Perceptually Optimized Pseudocoloring",
-      authors:
-        "Simon Warchol, Jakob Troidl, Jeremy Muhlich, Robert Krueger, John Hoffer, Tica Lin, Johanna Beyer, Elena Glassman, Peter Sorger, and Hanspeter Pfister",
-      journal: "Computer Graphics Forum (EuroVis 24, to appear)",
-      link: "https://doi.org/10.1101/2024.04.11.589087",
-      vcg_link: "https://vcg.seas.harvard.edu/publications/psudo",
-      teaser: "/psudo_teaser.jpg",
+      title: "Dynamic High-Pass Filtering and Multi-Spectral Attention for Image Super-Resolution",
+      authors: "Salma Abdel Magid, Yulun Zhang, Donglai Wei, Won-Dong Jang, Zudi Lin, Yun Fu, Hanspeter Pfister",
+      journal: "International Conference on Computer Vision (ICCV) 2021",
+      link: "https://ieeexplore.ieee.org/document/9710688",
+      //project_link: "link_to_project",
     },
     {
-      title: "Vimo: Visual Analysis of Neuronal Connectivity Motifs",
-      authors:
-        "Jakob Troidl, Simon Warchol, Jinhan Choi, Jordan Matelsky, Nagaraju Dhanysai, Xueying Wang, Brock Wester, Donglai Wei, Jeff W Lichtman, Hanspeter Pfister, Johanna Beyer",
-      journal: "IEEE Transactions on Visualization and Computer Graphics",
-      link: "https://doi.org/10.1109/TVCG.2023.3327388",
-      vcg_link: "https://vcg.seas.harvard.edu/publications/vimo",
-      teaser: "/vimo-teaser-02.png",
+      title: "Channel Embedding for Informative Protein Identification from Highly Multiplexed Images",
+      authors: "Salma Abdel Magid, Won-Dong Jang, Denis Schapiro, Donglai Wei, James Tompkin, Peter Sorger, Hanspeter Pfister",
+      journal: "International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI) 2020",
+      link: "https://link.springer.com/chapter/10.1007/978-3-030-59722-1_1",
+      //project_link: "link_to_project",
     },
-    
     {
-      authors:
-        "Jared Jessup, Robert Krueger, Simon Warchol, John Hoffer, Jeremy Muhlich, Cecily C Ritch, Giorgio Gaglia, Shannon Coy, Yu-An Chen, Jia-Ren Lin, Sandro Santagata, Peter K Sorger, Hanspeter Pfister",
-      title:
-        "Scope2Screen: focus+ context techniques for pathology tumor assessment in multivariate image data",
-      journal:
-        "IEEE Transactions on Visualization and Computer Graphics. 2022 Jan; 28(1): 259–269.",
-      link: "https://ieeexplore.ieee.org/document/9557792",
-      vcg_link: "https://vcg.seas.harvard.edu/publications/scope2screen",
-      teaser: "/scope2screen_high_res.png",
+      
+      title: "Image Classification on  IoT Edge Devices: Profiling and Modeling",
+      authors: "Salma Abdel Magid, Francesco Petrini, Behnam Dezfouli",
+      journal: "Springer Cluster Computing Journal. 2019.",
+      link: "https://link.springer.com/article/10.1007/s10586-019-02971-9",
+      //vcg_link: "https://vcg.seas.harvard.edu/publications/scope2screen",
+      //teaser: "/scope2screen_high_res.png",
     },
   ];
 
   const awardsTitle = "Awards";
-
+   
   const awards = [
     {
+      title: "Harvard Generative AI Summer Research Grant",
+      journal: "2024",
+      link: "https://uraf.harvard.edu/generative-ai-research-program"
+    },
+    {
+      title: "Siebel Scholarship",
+      journal: "2023",
+      link: "https://www.businesswire.com/news/home/20230919861208/en/Siebel-Scholars-Foundation-Announces-Class-of-2024"
+    },
+    {
+      title: "Harvard Graduate School of Arts and Sciences Prize Fellowship",
+      journal: "2019-2024",
+      link: "https://gsas.harvard.edu/academics/fellowships/internal-fellowships"
+    },
+    {
+      title: "MICCAI National Institutes of Health (NIH) Award",
+      journal: "2020",
+      link: "https://www.miccai2020.org/en/MICCAI-2020-NIH-AWARDS.html#:~:text=At%20MICCAI%202020%2C%20we%20had,by%20grant%20R13EB030422%20from%20NIBIB."
+    },
+    
+    /*{
       title: "Harvard University Certificate of Distinction in Teaching",
       journal: "Fall 2021",
-      authors: "CS171: Visualization",
-      link: "https://www.cs171.org/2021/",
-      teaser: "/bok.jpg",
-      vcg_link:
+      //authors: "CS171: Visualization",
+      //link: "https://www.cs171.org/2021/",
+      //teaser: "/bok.jpg",
+      //vcg_link:
         "https://bokcenter.harvard.edu/files/shadowbok/files/fall_2021_distinction_by_course.pdf",
     },
     {
@@ -78,14 +115,15 @@
       vcg_link:
         "https://bokcenter.harvard.edu/files/shadowbok/files/fall_2020_distinction_by_course.pdf",
     },
+    */
   ];
 
   const _links = {
-    twitter: "https://twitter.com/simonwarchol",
+   // twitter: "https://twitter.com/simonwarchol",
     googlescholar:
-      "https://scholar.google.com/citations?user=ZawMTogAAAAJ&hl=en&oi=ao",
-    github: "https://github.com/simonwarchol",
-    email: "simonwarchol@g.harvard.edu",
+      "https://scholar.google.com/citations?user=Tso5QeEAAAAJ&hl=en",
+    github: "https://github.com/sabdelmagid",
+    email: "sabdelmagid@g.harvard.edu",
   };
 
   const links: Array<SocialLink> = Object.keys(_links).map((key) => {
@@ -128,35 +166,28 @@
         >
       </span>
       <span class="home-detail"
-        >My research focuses on <span class="emphasis">ASFD</span></span
-      >
-      <span class="home-detail"
-        >Member of
-        <a class="groups" href="https://vcg.seas.harvard.edu/"
-          >Visual Computing Group</a
-        >
-        and the
-        <a class="groups" href="https://labsyspharm.org/"
-          >Laboratory of Systems Pharmacology</a
-        >.</span
-      >
+        >My current research focuses on fairness and interpretability of vision-language models.</span>
+      <span class="home-detail">Member of
+        
+        <a class="groups" href="https://vcg.seas.harvard.edu/">Visual Computing Group</a> </span>
 
-      <span class="home-detail">
-        <a class="groups" href="https://harvardgradunion.org/"
-          >HGSU/UAW Local 5118</a
-        > Steward.</span
-      >
-      <span class="home-detail"
-        >I was raised in <span class="cities">St. Louis, MO</span> and now live
-        in
-        <span class="cities">Cambridge, MA</span>.</span
-      >
-      <span class="home-detail">I have some other interests. They include:</span
-      >
+        
+        <span class="home-detail">
+          I received my B.S. and M.S. from Santa Clara University, advised by
+          
+          <a class="advisors" href="https://www.scu.edu/engineering/faculty/dezfouli-behnam/">Behnam Dezfouli</a
+        >
+        </span>
+        <span class="home-detail">Many thanks to Simon Warchol for helping me with this website!</span>
+        
+      <!-- 
+        I received my B.S., M.S. from Santa Clara University, advised by Prof. Behnam Dezfouli.
+      <span class="home-detail">I have some other interests. They include:</span> -->
     </div>
+     <!-- 
     <ul class="interests-list">
       <li><a href="https://www.megunticook.org/">Lake Megunticook</a>.</li>
-    </ul>
+    </ul> -->
 
     <div class="home-social">
       {#each links as link}
@@ -188,11 +219,23 @@
     {/each}
   </div>
 </div>
-
-<!--https://coolors.co/76b1e2-962b34-59cd90-fac05e-f79d84   -->
+<div class="teaching-wrapper" id="teaching-anchor">
+  <MainTitle>Teaching</MainTitle>
+  <div class="teaching-content">
+    <!-- Add your teaching content here -->
+  </div>
+</div>
+<div class="service-wrapper" id="service-anchor">
+  <MainTitle>Service</MainTitle>
+  <div class="service-content">
+    <!-- Add your service content here -->
+  </div>
+</div>
 <style lang="scss">
   #publications-anchor,
-  #awards-anchor {
+  #awards-anchor,
+  #teaching-anchor,
+  #service-anchor {
     padding-top: 50px;
   }
 
@@ -209,11 +252,8 @@
     background-image: url("/profile.png");
     width: 100%;
     height: 100%;
-    //width: 600px;
-    //height: 600px;
     max-width: 35vw;
     background-size: contain;
-    //background-size: auto 100%;
     background-position: center;
     background-repeat: space;
   }
@@ -232,59 +272,16 @@
     color: #76b1e2;
   }
 
-  .interests-list {
-    list-style: none;
-
-    a {
-      color: #76b1e2;
-    }
-  }
-
-  a.harvard {
-    color: #d23742;
-  }
-
-  span.emphasis {
-    //color: #59CD90;
-    //color: #d23742;
-    font-weight: 600;
-  }
-
-  a.groups {
-    color: #76b1e2;
-    //color: #FAC05E;
-  }
-
-  .teaser {
-    height: auto;
-    width: 100px !important;
-    min-width: 100px !important;
-    max-width: 100px !important;
-  }
-
-  span.cities {
-    //color: #d23742;
-    //color: #d23742;
-  }
-
   .home {
     &-title {
       font-family: var(--title-f);
       font-size: 2.7em;
       font-weight: 900;
-      //letter-spacing: 2px;
     }
 
     &-subtitle {
       font-size: 1.1em;
       font-weight: 200;
-    }
-
-    &-section {
-      //display: flex;
-      //flex-direction: column;
-      //flex: 1;
-      //overflow: hidden;
     }
 
     &-social {
@@ -298,8 +295,6 @@
   }
 
   .experience {
-    //border-top: gray dashed;
-    //margin-top:25px;
     display: flex;
     flex-direction: column;
 
@@ -309,18 +304,21 @@
     }
   }
 
-  .awards-wrapper {
-    //border-top: gray dashed;
-    //margin-top:25px;
+  .awards-wrapper,
+  .teaching-wrapper,
+  .service-wrapper {
     display: flex;
     flex-direction: column;
   }
 
-  .award {
+  .award,
+  .teaching,
+  .service {
     display: flex;
     align-items: center;
 
-    &-awards {
+    &-awards,
+    &-content {
       display: flex;
       flex-direction: column;
     }
