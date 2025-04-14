@@ -6,14 +6,12 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Salma 
 middle_name: S.
 last_name: Abdel Magid
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Ph.D. candidate in [your field] at [your university]. I’m interested in [keywords like NLP, ML, fairness, etc.].
+contact_note: reach me at sabdelmagid AT princeton DOT edu
+description: Salma S. Abdel Magid
 footer_text:  
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 👩🏾‍💻 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: "https://sabdelmagid.github.io" # the base hostname & protocol for your site
 baseurl: ""  # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -22,7 +20,7 @@ impressum_path: # set to path to include impressum link in the footer, use the s
 back_to_top: true # set to false to disable the back to top button
 
 # -----------------------------------------------------------------------------
-# Theme
+# Theme 
 # -----------------------------------------------------------------------------
 
 # repo color theme
