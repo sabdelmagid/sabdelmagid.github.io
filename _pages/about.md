@@ -26,9 +26,10 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-I am a postdoctoral scholar in Computer Science at Princeton University, working with [Dr. Olga Russakovsky](https://www.cs.princeton.edu/~olgarus/) in the [Princeton Visual AI Lab](https://visualai.princeton.edu/). My research interests are broad and interdisciplinary, spanning vision-language models, test-time adaptation, fairness, and the social impact of these models. I’m always excited to collaborate across disciplines. Please feel free to reach out!
+I am a postdoctoral scholar in Computer Science at Princeton University, working with [Dr. Olga Russakovsky](https://www.cs.princeton.edu/~olgarus/) in the [Princeton Visual AI Lab](https://visualai.princeton.edu/). I am also a Princeton Presidential Postdoctoral Fellow through the Office of the Dean of Faculty and a Future Values Fellow through the University Center for Human Values.
 
-\\
+My research focuses on the safety and responsibility of generative systems. I study the harms they cause, such as bias, misuse, and manipulation, while investigating and developing new technical tools and frameworks to mitigate them. I'm always excited to collaborate across disciplines. Please feel free to reach out!
+
 I completed my Ph.D. at Harvard University under the supervision of Dr. Hanspeter Pfister in the Harvard Visual Computing Group. I received the Siebel Scholarship and Harvard University Graduate Prize Fellowship. Previously, I have interned with Adobe Research and earned my B.S. and M.S. from Santa Clara University, where I was advised by Dr. Behnam Dezfouli in the Internet of Things Research Lab.
 
 ✉️ 📬 sabdelmagid AT princeton DOT edu
