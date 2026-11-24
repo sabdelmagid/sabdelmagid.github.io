@@ -18,6 +18,8 @@ a{color:#1d4fa8}a:hover{color:#0b2e6b}
 @media (max-width:760px){.panel{padding:1.1rem 1rem}}
 .venue{color:#3a74c9}
 .uni{color:#1d4fa8;font-weight:600}
+.also{display:block;margin-top:0.15rem;font-size:13px;line-height:1.4;color:#555555}
+.also i{color:#3a74c9}
 .box{overflow-y:auto;overscroll-behavior:contain;border:1px solid #d8d6d0;border-radius:4px;background:#ffffff;padding:0.85rem 1.25rem}
 .hdr-edu{border-left:1px solid #d8d6d0;padding-left:1.5rem}
 @media (max-width:760px){.hdr-photo{order:-1}.hdr-edu{border-left:0;padding-left:0;border-top:1px solid #d8d6d0;padding-top:1rem}}
@@ -74,6 +76,8 @@ Email:   sabdelmagid [at] princeton [dot] edu</pre>
     <h2 style="margin: 0 0 0.75rem 0; font-size: 1.25rem; font-weight: 600">News</h2>
     <dl style="margin: 0; display: grid; grid-template-columns: minmax(7.5rem, max-content) 1fr; gap: 0.6rem 1.5rem">
       <dt class="yr" style="padding-top: 0.2rem">Nov 2026</dt>
+      <dd style="margin: 0">Our work is featured on <a href="https://ai.princeton.edu/news/2026/methods-protect-photos-ai-manipulation-fall-short-princeton-research-finds"><b>Princeton AI News</b></a>!</dd>
+      <dt class="yr" style="padding-top: 0.2rem">Nov 2026</dt>
       <dd style="margin: 0"><b>I&rsquo;m on the academic job market this year!</b> I&rsquo;m applying for faculty positions starting in 2027. Feel free to reach out.</dd>
       <dt class="yr" style="padding-top: 0.2rem">Nov 2026</dt>
       <dd style="margin: 0">See you at <b>NeurIPS 2026 in Sydney</b> (Dec 6&ndash;12)! We&rsquo;re presenting <a href="https://neurips.cc/virtual/2026/poster/139845">BodyBench</a> and our <a href="https://neurips.cc/virtual/2026/poster/139199">hallucination-detection paper</a> in the Evaluations and Datasets Track.</dd>
@@ -86,27 +90,9 @@ Email:   sabdelmagid [at] princeton [dot] edu</pre>
     <h2 style="margin: 0 0 0.75rem 0; font-size: 1.25rem; font-weight: 600">Research</h2>
     <p style="margin: 0 0 1rem 0; max-width: 760px">My vision is safer generative AI that mitigates real-world harm.</p>
     <p style="margin: 0 0 1rem 0; max-width: 760px">But, we traditionally study one model on one task. In practice, a generator&rsquo;s outputs are collected into datasets that train other models (scorers, classifiers, the next generator), and those models act back on the generator by filtering, finetuning, and evaluating it.</p>
-    <p style="margin: 0 0 1.5rem 0; max-width: 760px">Harm from generative AI is produced by an ecosystem of models, data, and people, so safety has to be understood, evaluated, and controlled at the level of that ecosystem. My current work is on image generation and editing, but the same loop holds for language models and other modalities.</p>
+    <p style="margin: 0 0 1.5rem 0; max-width: 760px">Harm from generative AI is produced by an ecosystem of models, data, and people, so safety has to be understood, evaluated, and controlled at the level of that ecosystem.</p>
 
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem">
-      <div style="border-top: 2px solid #1b1b1b; padding-top: 0.75rem">
-        <p class="mono" style="margin: 0 0 0.2rem 0; color: #555555">UNDERSTAND</p>
-        <h3 style="margin: 0 0 0.5rem 0; font-size: 1.05rem; font-weight: 600">How harm spreads through models and data</h3>
-        <p class="mono" style="margin: 0; color: #555555">Concept2Concept, TMLR&nbsp;2025<br>Bias at the End of the Score, CVPR&nbsp;2026</p>
-      </div>
-      <div style="border-top: 2px solid #1b1b1b; padding-top: 0.75rem">
-        <p class="mono" style="margin: 0 0 0.2rem 0; color: #555555">EVALUATE</p>
-        <h3 style="margin: 0 0 0.5rem 0; font-size: 1.05rem; font-weight: 600">Against the harm people actually face</h3>
-        <p class="mono" style="margin: 0; color: #555555">BodyBench, NeurIPS&nbsp;2026<br>Hallucination signals, NeurIPS&nbsp;2026<br>Concept unlearning, T&amp;S&nbsp;2026</p>
-      </div>
-      <div style="border-top: 2px solid #1b1b1b; padding-top: 0.75rem">
-        <p class="mono" style="margin: 0 0 0.2rem 0; color: #555555">CONTROL</p>
-        <h3 style="margin: 0 0 0.5rem 0; font-size: 1.05rem; font-weight: 600">By intervening inside the model</h3>
-        <p class="mono" style="margin: 0; color: #555555">Copying as Defense, preprint&nbsp;2026</p>
-      </div>
-    </div>
-
-    <p style="margin: 1.75rem 0 0 0; max-width: 760px">I&rsquo;m always happy to collaborate, especially across disciplines. If any of this overlaps with your work, please reach out.</p>
+    <p style="margin: 0; max-width: 760px">I&rsquo;m always happy to collaborate, please reach out if this is of interest!</p>
   </section>
 
   <section id="papers" class="panel">
@@ -123,25 +109,25 @@ Email:   sabdelmagid [at] princeton [dot] edu</pre>
       <li>
         <span class="yr">2026</span><br>
         <a href="https://neurips.cc/virtual/2026/poster/139845" class="ttl">BodyBench: Evaluating Adversarial Image Defenses Against AI Nudification Inpainting</a><br>
-        <span class="au">Qiwei Li*, <b>Salma Abdel Magid*</b>, Olga Russakovsky, Eric Gilbert, Sarita Schoenebeck. <i class="venue">NeurIPS 2026, Evaluations and Datasets Track.</i> Also at the <i class="venue">WiML Workshop</i> and, as a poster, at <i class="venue">TAE (Trust-AI-Eval): Can We Trust AI Evaluation?</i>, a NeurIPS 2026 workshop.</span>
-        <span class="mono"> [<a href="#">pdf</a>] [<a href="#">bib</a>]</span>
+        <span class="au">Qiwei Li*, <b>Salma Abdel Magid*</b>, Olga Russakovsky, Eric Gilbert, Sarita Schoenebeck. <i class="venue">NeurIPS 2026, Evaluations and Datasets Track.</i><span class="also">Also at the <i>WiML Workshop</i> and, as a poster, at <i>TAE (Trust-AI-Eval): Can We Trust AI Evaluation?</i>, a NeurIPS 2026 workshop.</span></span>
+        <span class="mono"> [<a href="https://neurips.cc/virtual/2026/poster/139845">paper</a>] [<a href="https://github.com/gauchewy/BodyBench">code</a>] [<a href="https://huggingface.co/datasets/BodyBench/BodyBenchData">dataset</a>]</span>
       </li>
       <li>
         <span class="yr">2026</span><br>
         <a href="https://neurips.cc/virtual/2026/poster/139199" class="ttl">Robustness of Internal Signals for Hallucination Detection in Vision-Language Models</a><br>
         <span class="au">Allison Chen, William Yang, <b>Salma Abdel Magid</b>, Jonathan Williams, Olga Russakovsky, Esin Tureci. <i class="venue">NeurIPS 2026, Evaluations and Datasets Track.</i></span>
-        <span class="mono"> [<a href="#">pdf</a>] [<a href="#">bib</a>]</span>
+        <span class="mono"> [<a href="https://arxiv.org/abs/2610.27041">arXiv</a>] [<a href="https://neurips.cc/virtual/2026/poster/139199">paper</a>]</span>
       </li>
       <li>
         <span class="yr">2026</span><br>
-        <a href="#" class="ttl">Bias at the End of the Score</a><br>
+        <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Magid_Bias_at_the_End_of_the_Score_CVPR_2026_paper.html" class="ttl">Bias at the End of the Score</a><br>
         <span class="au"><b>Salma Abdel Magid</b>, Grace Guo, Esin Tureci, Vikram Ramaswamy, Amaya Dharmasiri, Hanspeter Pfister, Olga Russakovsky. <i class="venue">CVPR 2026.</i></span>
-        <span class="mono"> [<a href="#">pdf</a>] [<a href="#">bib</a>]</span>
+        <span class="mono"> [<a href="https://openaccess.thecvf.com/content/CVPR2026/html/Magid_Bias_at_the_End_of_the_Score_CVPR_2026_paper.html">paper</a>] [<a href="https://arxiv.org/abs/2604.13305">arXiv</a>] [<a href="https://github.com/sabdelmagid/BiasAtTheEndofTheScore-CVPR26">code</a>]</span>
       </li>
       <li>
         <span class="yr">2025</span><br>
         <a href="#" class="ttl">Is What You Ask For What You Get? Understanding Concept Associations in Text-to-Image Models</a><br>
-        <span class="au"><b>Salma Abdel Magid</b>, Weiwei Pan, Simon Warchol, Grace Guo, Junsik Kim, Wanhua Li, Mahia Rahman, Hanspeter Pfister. <i class="venue">TMLR 2025.</i></span>
+        <span class="au"><b>Salma Abdel Magid</b>, Weiwei Pan, Simon Warchol, Grace Guo, Junsik Kim, Wanhua Li, Mahia Rahman, Hanspeter Pfister. <i class="venue">TMLR 2025.</i><span class="also">Also at the <i>NeurIPS Safe Generative AI Workshop 2024</i>, <i>CVPR XAI4CV Workshop 2025</i>, and <i>Amazon Trusted AI Symposium 2026</i>.</span></span>
         <span class="mono"> [<a href="#">pdf</a>] [<a href="#">bib</a>]</span>
       </li>
       <li>
@@ -204,7 +190,9 @@ Email:   sabdelmagid [at] princeton [dot] edu</pre>
       <li><span class="yr">Sep 2026</span> &nbsp;Auditing the Text-to-Image Feedback System. <span class="dim">Department of Computer Science Graduate Seminar.</span> <b class="uni">University of Maine</b></li>
       <li><span class="yr">Aug 2026</span> &nbsp;Text-to-Image Feedback System. <span class="dim">Beery Lab.</span> <b class="uni">Massachusetts Institute of Technology</b></li>
       <li><span class="yr">May 2026</span> &nbsp;Auditing the Text-to-Image Feedback System. <span class="dim">Computer Vision Seminar.</span> <b class="uni">Cornell University</b></li>
+      <li><span class="yr">Apr 2026</span> &nbsp;Responsible Text-to-Image Systems. <span class="dim">Princeton Postdoctoral Seminar.</span> <b class="uni">Princeton University</b></li>
       <li><span class="yr">Mar 2026</span> &nbsp;Bias at the End of the Score. <span class="dim">Bias-in-AI Seminar.</span> <b class="uni">Princeton University</b></li>
+      <li><span class="yr">Jan 2026</span> &nbsp;Responsible Visual AI. <span class="dim">Presidential Postdoctoral Fellowship Lightning Talk.</span> <b class="uni">Princeton University</b></li>
       <li><span class="yr">Oct 2024</span> &nbsp;Identifying and Mitigating Associative Bias in Vision-Language Models. <span class="dim">Department of Computer Science Colloquium.</span> <b class="uni">Harvard University</b></li>
     </ul>
     </div>
